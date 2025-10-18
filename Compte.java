@@ -15,6 +15,7 @@ public class Compte {
         this.solde = leSolde;
         this.proprietaire = leProproetaire;
         this.lAgence = agence;
+	System.out.println("Création d'un compte !");
     }
 
     public void setCode(String code) {this.code = code;}
